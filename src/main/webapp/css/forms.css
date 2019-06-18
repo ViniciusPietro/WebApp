@@ -1,0 +1,20 @@
+.input{
+	padding:  5px;
+	border: 0;
+	background: #fff;
+	width: 100%;
+	max-width: 300px;
+	font-size: 1em;
+        text-align: left;
+        border-radius: 30px;
+        font-family: "Dusha";
+}
+
+label{
+	display: block;
+	text-align: left;
+}
+
+.row{
+	margin: 5px 0 10px 0;
+}

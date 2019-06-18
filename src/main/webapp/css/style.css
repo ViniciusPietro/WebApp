@@ -1,0 +1,115 @@
+@import 'buttons.css';
+@import 'forms.css';
+@import 'fonts.css';
+@import 'nav.css';
+@import 'header.css';
+@import 'tipografia.css';
+@import 'grupos.css';
+
+* { 
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body { 
+	height: 100%;
+}
+* html #tudo {
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+}
+
+body{
+	background: #996666;
+	font-family: "Dusha"
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Home */
+
+#home{
+	height: 100vh;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 250px;
+	text-align: center;
+}
+
+.controleL{
+	width: 70%;
+	margin: 0 auto;
+	max-width: 300px;
+        padding-top: 120px;
+}
+
+.controleVoto{
+    	width: 70%;
+	padding-left: 150px;
+        padding-top: 50px;
+	max-width: 500px;
+}
+
+.controleRela{
+    	width: 70%;
+	margin: 0 auto;
+	max-width: 300px;
+        padding-top: 120px;
+}
+
+.centerContent{
+    align-content: center;
+    text-align: center;
+}
+
+#home .titulo{
+	color: #d5876d;
+	font-family: 'Goudy';
+	font-weight: normal;
+	font-size: 3em;
+	margin: /* top right botton left */ 20px 0;
+}
+
+#tudo { 
+	margin: 0 auto;
+	min-height: 100%;
+	position: relative;
+}
+
+.row{
+    margin: 25px;
+}
+
+.voto{
+    margin: 30px;
+}
+
+
+.ltitulo{
+	color: #d5876d;
+	font-family: 'Goudy';
+	font-weight: normal;
+	font-size: 3em;
+	margin: /* top right botton left */ 20px 0;
+
+}
+
+.lg_pass{
+    color: #d5876d;
+    font-family: 'Goudy';
+    font-size: 1em;
+}
+
+.img{
+    float: right;
+    padding-top: 50px;
+    padding-right: 250px;
+	max-width:700px;
+}
+

@@ -1,0 +1,48 @@
+.btn{
+	background: #F1f1f1;
+	padding: 10px 15px;
+	color: #333;
+	display: inline-block;
+	max-width: 300px;
+	margin: 5px auto;
+	font-size: 1em;
+	font-family: "Palatino";
+}
+
+.btnPrim{
+	background: #c88378;
+	color: #fff;
+	font-family: "Palatino";
+        border-radius: 50% ;
+        font-size: 1.25em;
+        margin: 9px;
+}
+.btnVoltar{
+        background: gray;
+	color: #fff;
+	font-family: "Palatino";
+        text-align: center;
+        border-radius: 50% ;
+}
+
+.btn-block{
+	display: block !important;
+	width: 100%;
+}
+
+.btnS{
+	background: #669966;
+	color: #fff;
+        text-align: center;
+        border-radius: 50%;
+}
+
+.btnVerif{
+    background: #3083ff;
+	color: #fff;
+	font-family: "Palatino";
+        text-align: center;
+        border-radius: 50% ;
+}
+
+
